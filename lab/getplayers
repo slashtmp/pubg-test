@@ -1,0 +1,22 @@
+#!/bin/bash
+
+API="api.pubg.com"
+PLATFORM="xbox"
+
+PLAYERS="MutX"
+ACCOUNTID="account.797eab3db44c4310aabb11859717530c"
+SESSIONID="division.bro.official.console-03"
+
+AUTHKEY="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3M2U0MTExMC1iNzVmLTAxMzctMGRlZS03ZjI1NmUzMjk2MWIiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTY4Mjc0NDMxLCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6InRvbWFzLW0tcGVyc3NvIn0.92JDktvNaTWGl4tRgXVDD-Xpp88HDlmtG5GKQ4j9sLI"
+
+curl -i --proxy-ntlm -g "https://${API}/shards/${PLATFORM}/players?filter[playerNames]=${PLAYERS}" \
+	-H "Authorization: Bearer ${AUTHKEY}" \
+	-H "Accept: application/vnd.api+json"
+
+curl -i --proxy-ntlm -g "https://${API}/shards/${PLATFORM}/seasons" \
+	-H "Authorization: Bearer ${AUTHKEY}" \
+	-H "Accept: application/vnd.api+json"
+
+curl -i --proxy-ntlm -g "https://${API}/shards/${PLATFORM}/players/${ACCOUNTID}/seasons/${SESSIONID}" \
+	-H "Authorization: Bearer ${AUTHKEY}" \
+	-H "Accept: application/vnd.api+json"
