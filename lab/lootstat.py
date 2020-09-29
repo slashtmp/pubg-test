@@ -9,7 +9,7 @@ class pubgApi:
 
     def __init__(self, apiKey):
         self.s = requests.Session()
-        self.s.headers.update({"Authorization": "Bearer " + api_key})
+        self.s.headers.update({"Authorization": "Bearer " + apiKey})
         self.s.headers.update({"Accept": "application/vnd.api+json"})
         self.shards = "xbox"
 

@@ -24,7 +24,10 @@ for i in seasons["data"]:
     if( i["attributes"]["isCurrentSeason"]):
         currentSeason =  i["id"]
 
-playerName = "MutX"
+playerName = "Rokku"
+lootGround = 0
+lootCarePackage = 0
+lootDeathbox = 0
 urlPlayer = urlBase + "players?filter[playerNames]=" + playerName
 r = requests.get(urlPlayer, headers=header)
 
@@ -47,4 +50,19 @@ for url in telemetryUrl:
     r = requests.get( url, telemetryHeader )
     telemetry = r.json()
 
-    print( "loop" )
+    for row in telemetry:
+        if( row['_T'] == "LogMatchDefinition" ):
+            continue
+        if( row['common']['isGame'] < 0.1 ):
+            continue
+
+        if( row['_T'] == "LogItemPickup" and row['character']['name'] == playerName):
+            lootGround += 1
+        if( row['_T'] == "LogItemPickupFromCarepackage" and row['character']['name'] == playerName):
+            lootCarePackage += 1
+        if( row['_T'] == "LogItemPickupFromLootBox" and row['character']['name'] == playerName):
+            lootDeathbox += 1
+
+print( "Ground loot:", lootGround)
+print( "Carepackage loot:", lootCarePackage)
+print( "Deathbox loot", lootDeathbox)
