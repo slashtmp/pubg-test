@@ -1,0 +1,264 @@
+{
+    "data": [
+      {
+        "type": "player",
+        "id": "account.797eab3db44c4310aabb11859717530c",
+        "attributes": {
+          "shardId": "xbox",
+          "patchVersion": "",
+          "name": "MutX",
+          "stats": null,
+          "titleId": "pubg"
+        },
+        "relationships": {
+          "matches": {
+            "data": [
+              {
+                "type": "match",
+                "id": "243f854d-5c29-4445-af8d-19e6371bb1ec"
+              },
+              {
+                "type": "match",
+                "id": "1eec2f98-38fe-486a-8749-e3d934477933"
+              },
+              {
+                "type": "match",
+                "id": "eaa6663a-0069-437d-9dac-2bc47a3b5904"
+              },
+              {
+                "type": "match",
+                "id": "d6ab237b-0262-44d3-889d-bd21d2137616"
+              },
+              {
+                "type": "match",
+                "id": "be9ebd53-cdbb-483d-aa4c-91bca97d41d4"
+              },
+              {
+                "type": "match",
+                "id": "fb2a47e3-e3db-4688-bf8f-ca5b336e5b66"
+              },
+              {
+                "type": "match",
+                "id": "081beeaa-cd2b-4485-9a3a-01f00c10ed57"
+              },
+              {
+                "type": "match",
+                "id": "211e92f9-9df5-4f31-a70a-817c64b6f1a6"
+              },
+              {
+                "type": "match",
+                "id": "ddb36935-e6cb-4342-9ef1-a4ae37390785"
+              },
+              {
+                "type": "match",
+                "id": "518db819-8fd4-4a06-a47e-0d24f7308373"
+              },
+              {
+                "type": "match",
+                "id": "5c9e056e-2aad-4015-b5d5-b1992c852976"
+              },
+              {
+                "type": "match",
+                "id": "28d9515f-b72c-470e-8386-c75060a5ee36"
+              },
+              {
+                "type": "match",
+                "id": "898a9a92-b85f-4b88-aa59-43a4473bfc4e"
+              },
+              {
+                "type": "match",
+                "id": "e6dc0d90-e111-45e3-b38a-e1d6efb068d7"
+              },
+              {
+                "type": "match",
+                "id": "33732ec5-b97a-4b2e-ba26-675b59d29049"
+              },
+              {
+                "type": "match",
+                "id": "6adc7f68-4cde-42e6-9cbb-668467d86e35"
+              },
+              {
+                "type": "match",
+                "id": "15997e7e-1452-4f07-be5e-6a9ffbc7d30a"
+              },
+              {
+                "type": "match",
+                "id": "1f6d3d62-5b62-4494-acdd-4b4067dea8f1"
+              },
+              {
+                "type": "match",
+                "id": "68f5fc78-0c8d-4951-a2bb-1eaaaa288c61"
+              },
+              {
+                "type": "match",
+                "id": "bc5f7228-342e-49c8-a3ca-231455f397d5"
+              },
+              {
+                "type": "match",
+                "id": "6db8b0ed-0166-4223-b435-9ae9a40f9313"
+              },
+              {
+                "type": "match",
+                "id": "736c9e16-1f22-432c-a7ef-ebf384bf1ab3"
+              },
+              {
+                "type": "match",
+                "id": "d5103516-baea-410a-a2b7-9fc29ea3b920"
+              },
+              {
+                "type": "match",
+                "id": "b64c6a6c-7366-47da-8950-a8ec3cc8b1fc"
+              },
+              {
+                "type": "match",
+                "id": "7abb4d93-6b53-4e4f-ad1e-8cb922b655a4"
+              },
+              {
+                "type": "match",
+                "id": "9e496335-4b11-4b4c-9f98-84dc23a0dc1e"
+              },
+              {
+                "type": "match",
+                "id": "7861f685-584e-49af-be76-e9339fc13896"
+              },
+              {
+                "type": "match",
+                "id": "99734fc1-4fbe-407c-b569-62aaa9c91b62"
+              },
+              {
+                "type": "match",
+                "id": "8b4714ae-b9f9-45fa-bae7-0a3de01a3dbb"
+              },
+              {
+                "type": "match",
+                "id": "32dbe08b-c828-4240-b13e-44e4aa0b0c74"
+              },
+              {
+                "type": "match",
+                "id": "f77e33b7-0366-4e00-8930-f58b51b9d265"
+              },
+              {
+                "type": "match",
+                "id": "50a3a017-16c7-43b1-be0c-0a97d60fea72"
+              },
+              {
+                "type": "match",
+                "id": "87eb008c-8e6c-4420-a6d1-f79313fb206c"
+              },
+              {
+                "type": "match",
+                "id": "b93b586e-5fde-48b3-8c51-3d04e266669b"
+              },
+              {
+                "type": "match",
+                "id": "00c3ce7f-bc47-481f-9359-5eec522b706a"
+              },
+              {
+                "type": "match",
+                "id": "014ccfa5-2243-4744-9ec4-249597e3f16f"
+              },
+              {
+                "type": "match",
+                "id": "bf5b60dc-e55c-4cf1-ac2b-859e2d7ae233"
+              },
+              {
+                "type": "match",
+                "id": "a5b07805-e594-4f12-9358-cdee8e027b42"
+              },
+              {
+                "type": "match",
+                "id": "6621e618-16a2-4c10-a86d-bcbb3588cc30"
+              },
+              {
+                "type": "match",
+                "id": "acc52523-90cb-4a59-9233-4a1ff522ff6e"
+              },
+              {
+                "type": "match",
+                "id": "bc4e8a1a-3af3-4585-89fc-057bafd31df5"
+              },
+              {
+                "type": "match",
+                "id": "8a9689d9-2a18-4b9d-8b23-1fd8d64dc531"
+              },
+              {
+                "type": "match",
+                "id": "6fe069e7-762b-4a1b-8fc1-1b0cd4786908"
+              },
+              {
+                "type": "match",
+                "id": "f12b4c0c-0901-4070-8567-132a05575ba3"
+              },
+              {
+                "type": "match",
+                "id": "c475d36b-9d3d-492d-9d34-02df2d9512b4"
+              },
+              {
+                "type": "match",
+                "id": "662b2846-d859-4161-998e-351bcaa94b22"
+              },
+              {
+                "type": "match",
+                "id": "932f2068-bab1-44ca-baab-1827255a6fa6"
+              },
+              {
+                "type": "match",
+                "id": "4ae6eef1-dcea-4fe6-a994-8e6047d07e07"
+              },
+              {
+                "type": "match",
+                "id": "a48163ea-ccca-41d3-9a2a-512f59de2d02"
+              },
+              {
+                "type": "match",
+                "id": "99b90a81-a2b9-4648-a2c6-3bebb809804d"
+              },
+              {
+                "type": "match",
+                "id": "ece8cf70-da8a-4e35-ad79-550375f67eb0"
+              },
+              {
+                "type": "match",
+                "id": "68b1d45d-416a-4af9-9e81-967117e29b56"
+              },
+              {
+                "type": "match",
+                "id": "e3c93d68-ec68-4469-85f2-6f804d8a8b5d"
+              },
+              {
+                "type": "match",
+                "id": "fcb610a0-79f6-450d-aaf5-dd57e5e40935"
+              },
+              {
+                "type": "match",
+                "id": "60c5de76-4cdd-4494-b1e1-387cbf41a95d"
+              },
+              {
+                "type": "match",
+                "id": "4fadff6f-36a7-407e-99d8-731bcf621f63"
+              },
+              {
+                "type": "match",
+                "id": "adeee1a9-4b5d-42ff-b6e3-53392b0651fa"
+              },
+              {
+                "type": "match",
+                "id": "6ee5bd06-abcd-44d8-8894-90df3adea34f"
+              }
+            ]
+          },
+          "assets": {
+            "data": []
+          }
+        },
+        "links": {
+          "self": "https://api.pubg.com/shards/xbox/players/account.797eab3db44c4310aabb11859717530c",
+          "schema": ""
+        }
+      }
+    ],
+    "links": {
+      "self": "https://api.pubg.com/shards/xbox/players?filter[playerNames]=MutX"
+    },
+    "meta": {}
+  }
